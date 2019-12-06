@@ -5,7 +5,7 @@ namespace Cyy\Event;
 use Evenement\EventEmitterInterface;
 use Evenement\EventEmitterTrait;
 
-class EventDispatcher extends \yii\base\BaseObject implements EventEmitterInterface
+class EventDispatcher extends \yii\base\Object implements EventEmitterInterface
 {
     use EventEmitterTrait;
 
